@@ -1,0 +1,12 @@
+import random
+
+parola_karakterleri ="+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+sifre = ""
+sifre_uzunluk =int(input("sifre uzunlugu gir"))
+
+for i in range(sifre_uzunluk):
+    sifre +=random.choice(parola_karakterleri)
+
+
+print (sifre)
